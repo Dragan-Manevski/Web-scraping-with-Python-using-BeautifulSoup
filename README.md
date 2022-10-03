@@ -1,5 +1,6 @@
 **Web scraping**
-- process of **extracting and parsing data from websites** in an **automated fashion**
+
+- process of **extracting and parsing data from websites** in an automated fashion
 - **use Python and its libraries** to download / get:
 	- images
 	- information
@@ -18,11 +19,23 @@
 	- **requests** - used to **pull / retrieve data from an API using Python**
 	- **lxml** - used to **process XML and HTML using Python**
 	- **BeautifulSoup** - used to **pull data out of HTML and XML files using Python**
-- **steps**
-	1. Import necessary external libraries
-	2. Pass the URL into the .get() method to load an HTML document into response object
-	3. Pass the HTML document into the .Beautifulsoup() method to parse through Python string (HTML text file) from the soup object
-	4. Pass the HTML tags into the BS4 method to grab the required information from the soup object
+- **steps:**
+	1. Pick a website and describe the objective
+	2. Import necessary external libraries
+	3. Use the requests library to download web pages
+		- Inspect the website's HTML source and identify the right URLs to download
+		- Pass the URL into the .get() method to load an HTML document into response object
+		- Download and save web pages locally using the requests library
+	4. Use Beautiful Soup to parse and extract information
+		- Pass the HTML document into the .Beautifulsoup() method to parse through Python string (HTML text file) from the soup object and explore the structure of downloaded web pages
+		- Pass the HTML tags into the right BS4 properties and methods to extract the required information from the soup object
+		- Create functions to extract from the page into lists and dictionaries.
+	5. Create CSV file(s) with the extracted information
+		- Create functions for the end-to-end process of downloading, parsing, and saving CSVs
+		- Execute the function with different inputs to create a dataset of CSV files
+		- Verify the information in the CSV files by reading them back using Pandas
+	6. Document and share the work
+
 
 ___________________________________________________________________________________________________________________________________________
 
