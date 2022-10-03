@@ -1,5 +1,5 @@
 **Web scraping**
-- **techniques** involving **automating the gathering of data from website**
+- process of **extracting and parsing data from websites** in an **automated fashion**
 - **use Python and its libraries** to download / get:
 	- images
 	- information
