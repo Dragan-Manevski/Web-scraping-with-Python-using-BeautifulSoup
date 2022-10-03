@@ -23,3 +23,62 @@
 	2. Pass the URL into the .get() method to load an HTML document into response object
 	3. Pass the HTML document into the .Beautifulsoup() method to parse through Python string (HTML text file) from the soup object
 	4. Pass the HTML tags into the BS4 method to grab the required information from the soup object
+
+___________________________________________________________________________________________________________________________________________
+
+
+**Web Scraping with Python using requests and BeautifulSoup**
+
+**1. Import the Libraries**
+
+_________
+
+**I. Scrape data from National Weather Service website**
+
+**1. Access and get HTML content from a website**
+
+**2. Parse a web page**
+- 2.1. Extract web **'head'** tag
+- 2.2. Extract web **'body'** tag
+- 2.3. Extract web **'title'** tag
+
+_________
+
+**II. Scrape data from World Population Clock website**
+
+**1. Access and get HTML content from a website**
+
+**2. Parse a web page**
+- 2.1. Extract web **'h2'** tag
+- 2.2. Extract web **'p'** tag
+- 2.3. Extract web **'a'** tag
+- 2.4. Extract web **'div'** tag
+	- using **'class'** attribute
+	- using **'id'** attribute
+
+_________
+
+**III. Scrape data from Data scraping Wikipedia website**
+
+**1. Access and get HTML content from a website**
+
+**2. Parse a web page**
+- 2.1. Extract web **'img'** tag
+
+_________
+
+**IV. Scrape data from Books to Scrape website**
+
+**1. Access and get HTML content from a website**
+
+**2. Parse a web page**
+- 2.1. Extract **elements across multiple web pages**
+
+_________
+
+**V. Scrape data from Worldometers website**
+
+**1. Access and get HTML content from a website**
+
+**2. Parse a web page**
+- 2.1. Extract web **'table'** tag and **save data to .csv file**
